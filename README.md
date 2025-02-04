@@ -1,37 +1,3 @@
-## Theme Colors
-
-### Primary Palette
-
-| Color Name        | Color Preview                                    | Hex Code  |
-|-------------------|--------------------------------------------------|-----------|
-| primary.light     | $${\color{#006db6} \rule{100px}{60px}}$$          | #006db6 |
-| primary.main      | $${\color{#1a57ad} \rule{100px}{60px}}$$          | #1a57ad |
-| primary.dark      | $${\color{#222c67} \rule{100px}{60px}}$$          | #222c67 |
-
-### Secondary Palette
-
-| Color Name        | Color Preview                                    | Hex Code  |
-|-------------------|--------------------------------------------------|-----------|
-| secondary.light   | $${\color{#4a6278} \rule{100px}{60px}}$$          | #4a6278 |
-| secondary.main    | $${\color{#394b59} \rule{100px}{60px}}$$          | #394b59 |
-| secondary.dark    | $${\color{#293642} \rule{100px}{60px}}$$          | #293642 |
-
-### Error Palette
-
-| Color Name       | Color Preview                                    | Hex Code  |
-|------------------|--------------------------------------------------|-----------|
-| error.light    | $${\color{#ef5350} \rule{100px}{60px}}$$          | #ef5350 |
-| error.main     | $${\color{#d70000} \rule{100px}{60px}}$$          | #d70000 |
-| error.dark     | $${\color{#c62828} \rule{100px}{60px}}$$          | #c62828 |
-
-### Warning Palette
-
-| Color Name       | Color Preview                                    | Hex Code  |
-|------------------|--------------------------------------------------|-----------|
-| warning.light  | $${\color{#ff9800} \rule{100px}{60px}}$$          | #ff9800 |
-| warning.main   | $${\color{#ec850c} \rule{100px}{60px}}$$          | #
-
-
 ### Theme Color Palette
 <!--  LaTeX Color Package: https://www.overleaf.com/learn/latex/Using_colours_in_LaTeX -->
 
@@ -174,9 +140,11 @@
     <th>Color Name</th>
     <th>Color Preview</th>
     <th>Hex Code</th>
+    <td/>
     <th>Color Name</th>
     <th>Color Preview</th>
     <th>Hex Code</th>
+    <td/>
     <th>Color Name</th>
     <th>Color Preview</th>
     <th>Hex Code</th>
@@ -185,42 +153,50 @@
     <td>grey.100</td>
     <td >$${\color{#FFFFFF} \rule{100px}{60px}}$$</td>
     <td><code>#FFFFFF</code></td>
-    <td>grey.200</td>
-    <td >$${\color{#F5F5F5} \rule{100px}{60px}}$$</td>
-    <td><code>#F5F5F5</code></td>
-    <td>grey.300</td>
-    <td >$${\color{#EBEBEB} \rule{100px}{60px}}$$</td>
-    <td><code>#EBEBEB</code></td>
-  </tr>
-  <tr>
-    <td>grey.400</td>
-    <td >$${\color{#DCDCDC} \rule{100px}{60px}}$$</td>
-    <td><code>#DCDCDC</code></td>
+    <td/>
     <td>grey.500</td>
     <td >$${\color{#828282} \rule{100px}{60px}}$$</td>
     <td><code>#828282</code></td>
-    <td>grey.600</td>
-    <td >$${\color{#666666} \rule{100px}{60px}}$$</td>
-    <td><code>#666666</code></td>
-  </tr>
-  <tr>
-    <td>grey.700</td>
-    <td >$${\color{#505050} \rule{100px}{60px}}$$</td>
-    <td><code>#505050</code></td>
-    <td>grey.800</td>
-    <td >$${\color{#3C3C3C} \rule{100px}{60px}}$$</td>
-    <td><code>#3C3C3C</code></td>
+    <td/>
     <td>grey.900</td>
     <td >$${\color{#282828} \rule{100px}{60px}}$$</td>
     <td><code>#282828</code></td>
   </tr>
   <tr>
+    <td>grey.200</td>
+    <td >$${\color{#F5F5F5} \rule{100px}{60px}}$$</td>
+    <td><code>#F5F5F5</code></td>
+    <td/>
+    <td>grey.600</td>
+    <td >$${\color{#666666} \rule{100px}{60px}}$$</td>
+    <td><code>#666666</code></td>
+    <td/>
     <td>grey.1000</td>
     <td >$${\color{#191919} \rule{100px}{60px}}$$</td>
     <td><code>#191919</code></td>
+  </tr>
+  <tr>
+    <td>grey.300</td>
+    <td >$${\color{#EBEBEB} \rule{100px}{60px}}$$</td>
+    <td><code>#EBEBEB</code></td>
+    <td/>
+    <td>grey.700</td>
+    <td >$${\color{#505050} \rule{100px}{60px}}$$</td>
+    <td><code>#505050</code></td>
+    <td/>
     <td>grey.1100</td>
     <td >$${\color{#000000} \rule{100px}{60px}}$$</td>
     <td><code>#000000</code></td>
+  </tr>
+  <tr>
+    <td>grey.400</td>
+    <td >$${\color{#DCDCDC} \rule{100px}{60px}}$$</td>
+    <td><code>#DCDCDC</code></td>
+    <td/>
+    <td>grey.800</td>
+    <td >$${\color{#3C3C3C} \rule{100px}{60px}}$$</td>
+    <td><code>#3C3C3C</code></td>
+    <td/>
     <td></td>
     <td></td>
     <td></td>
