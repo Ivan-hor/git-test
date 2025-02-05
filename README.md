@@ -1,3 +1,69 @@
+
+#  MUI Theme Color Palette in the Project
+
+This project uses **Material UI (MUI) with a custom theme** to ensure a consistent design. The theme is **globally provided** using `ThemeProvider`, making it accessible across the entire application.
+The theme is defined in `theme.ts` file and includes custom colors for primary, secondary, error, warning, info, success, and grey.
+
+Since the project is wrapped with **`ThemeProvider`**, you can use theme colors in any component **without manually passing the theme**.
+
+> [!TIP]
+> **Recommended Way (Good Practice)**
+
+Always use `theme.palette` for styling components to maintain consistency and flexibility.
+
+#### **Using the `sx` Prop (Recommended)**
+```tsx
+import { Box, Button } from "@mui/material";
+
+const MyComponent = () => {
+  return (
+    <Box
+      sx={{
+        backgroundColor: "primary.main",
+        color: "error.main",
+      }}
+    >
+      <Button variant="contained" color="secondary.main">
+         My button
+      </Button>
+    </Box>
+  );
+};
+
+export default MyComponent;
+```
+
+---
+
+> [!WARNING]
+> **Avoid This (Bad Practice)**
+
+Never use **hardcoded color values** in components.
+
+Never use **inline style** in components.
+
+```tsx
+const MyComponent = () => {
+  return (
+    <div style={{ backgroundColor: "#1a57ad" }}>
+      <button style={{ backgroundColor: "#394b59", color: "#ffffff" }}>
+         My button
+      </button>
+    </div>
+  );
+};
+```
+
+
+#### **Why is this a bad approach?**
+- **Inconsistent styling** – If the theme colors change, these components won’t update automatically.
+- **Breaks maintainability** – Finding and updating colors across multiple files is inefficient.
+- **Ignores Dark Mode Support** – Hardcoded colors won’t adjust when switching to a dark theme.
+
+---
+
+The `theme.ts` file contains custom colors: primary, secondary, error, warning, info, success, and grey.
+
 ### Theme Color Palette
 <!--  LaTeX Color Package: https://www.overleaf.com/learn/latex/Using_colours_in_LaTeX -->
 
@@ -114,20 +180,20 @@
     <td><code>#4caf50</code></td>
   </tr>
   <tr>
-    <td>info.main</td>
+    <td>$${\text{info.main} \; \rule{100px}{0px}}$$</td>
     <td >$${\color{#215db0} \rule{100px}{60px}}$$</td>
     <td><code>#215db0</code></td>
     <td></td>
-    <td>success.main</td>
+    <td>$${\text{success.main} \; \rule{100px}{0px}}$$</td>
     <td>$${\color{#1f9b00} \rule{100px}{60px}}$$</td>
     <td><code>#1f9b00</code></td>
   </tr>
   <tr>
-    <td>info.dark</td>
+    <td>$${\text{info.dark} \; \rule{100px}{0px}}$$</td>
     <td >$${\color{#14468c} \rule{100px}{60px}}$$</td>
     <td><code>#14468c</code></td>
     <td></td>
-    <td>success.dark</td>
+    <td>$${\text{success.dark} \; \rule{100px}{0px}}$$</td>
     <td>$${\color{#198200} \rule{100px}{60px}}$$</td>
     <td><code>#198200</code></td>
   </tr>
